@@ -1,0 +1,19 @@
+Example output from TCPserver.py:  py TCPserver.py
+TCP Server listening on 0.0.0.0:13000
+Connection from ('xxx.x.x.x', xxxxx)
+Received: 15000 30 4.69
+
+Example output from TCPclient.py: py TCPclient.py localhost 15000 30 4.69
+15000.0 loan
+Monthly payment is $77.71
+Total payment is $27973.99
+
+
+Example output from UDPServer.py: py UDPserver.py
+UDP Server listening on 0.0.0.0:13000
+Received from ('xxx.x.x.x', xxxxx): 15000 30 4.69
+
+Example output from UDPClient.py: py UDPclient.py localhost 15000 30 4.69
+15000.0 loan
+Monthly payment is $77.71
+Total payment is $27973.99
